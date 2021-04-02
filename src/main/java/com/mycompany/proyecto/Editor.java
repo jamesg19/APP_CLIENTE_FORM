@@ -210,6 +210,11 @@ public class Editor extends javax.swing.JFrame implements Runnable {
         jMenu3.setText("Importar");
 
         ImportatForm.setText("Importar Formulario");
+        ImportatForm.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                ImportatFormActionPerformed(evt);
+            }
+        });
         jMenu3.add(ImportatForm);
 
         jMenuBar1.add(jMenu3);
@@ -335,6 +340,16 @@ public class Editor extends javax.swing.JFrame implements Runnable {
         // TODO add your handling code here:
         ErroresArea.setText("");
     }//GEN-LAST:event_LimpiarActionPerformed
+
+    private void ImportatFormActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_ImportatFormActionPerformed
+        // TODO add your handling code here:
+        
+        
+        
+        
+        
+        
+    }//GEN-LAST:event_ImportatFormActionPerformed
 
 //    /**
 //     * @param args the command line arguments
